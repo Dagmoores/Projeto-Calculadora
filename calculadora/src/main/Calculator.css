@@ -1,6 +1,9 @@
 .calculator {
-    height: 320px;
-    width: 235px;
+    max-height: 320px;
+    min-height: 5px;
+    margin: 0 25% 0 25%;
+    max-width: 235px;
+    min-width: 10%;
     border-radius: 5px;
     overflow: hiden;
 

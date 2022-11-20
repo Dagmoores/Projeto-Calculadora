@@ -3,7 +3,6 @@ import './Calculator.css'
 
 import Button from '../components/Button'
 import Display from '../components/Display';
-import { clear } from '@testing-library/user-event/dist/clear';
 
 
 const initialState = {
@@ -79,7 +78,7 @@ export default class Calculator extends Component {
             return
         }
 
-        const decimalCondition = this.state.displayValue === "0" && n != "." 
+        const decimalCondition = this.state.displayValue === "0" && n !== "." 
         const clearDisplay = decimalCondition || this.state.clearDisplay
 
         const currentValue = clearDisplay ? '' : this.state.displayValue

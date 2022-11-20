@@ -6,12 +6,21 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+
     <div>
-    <h1>Calculator</h1>
+    <h1>Calculadora</h1>
+
     <Calculator />
+
+    
+    <footer>
+      <h4>Produzida por Daniel Augusto Moore da Silva</h4>
+      Acesse o código em: <a href="https://github.com/Dagmoores/Projeto-Calculadora">Github</a>
+    </footer>
+
+
     </div>
-  </React.StrictMode>
+
 );
 
 // If you want to start measuring performance in your app, pass a function
